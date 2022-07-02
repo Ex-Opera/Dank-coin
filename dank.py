@@ -10,8 +10,8 @@ def dank():
   elif payload == {'content': 'pls beg'}: print(f'beg {i+1}')
 repeat = int(input("Input number of repeat: "))
 for i in range(repeat):
-   payload = {'content': 'pls fish'}; dank()
-   payload = {'content': 'pls hunt'}; dank()
-   payload = {'content': 'pls dig'}; dank()
-   payload = {'content': 'pls beg'}; dank()
-   time.sleep(35)
+  payload = {'content': 'pls fish'}; dank()
+  payload = {'content': 'pls hunt'}; dank()
+  payload = {'content': 'pls dig'}; dank()
+  payload = {'content': 'pls beg'}; dank()
+  time.sleep(35)
