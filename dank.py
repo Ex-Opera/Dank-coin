@@ -1,8 +1,8 @@
 import requests
 import time
 
-channelID = int(input("Input channel_ID: "))
 headers = {"authorization": "Token here"}
+channelID = int(input("Input channel_ID: "))
 
 def dank(action):
   payload = {'content': f'pls {action}'}
