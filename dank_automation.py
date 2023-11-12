@@ -1,4 +1,5 @@
 import requests
+import getpass
 import time
 from dank_analysis import display_time_info
 
@@ -15,8 +16,7 @@ def automate_coin_collection(repeat_count, action_list):
         display_time_info(total_executions, completed_executions)
         time.sleep(35)
 
-# Replace "Token here" with your actual Discord token
-discord_token = "Token here"
+discord_token = getpass.getpass("Input Discord token: ")
 channel_id = int(input("Input Discord channel ID: "))
 
 # Call the function to display estimated time
