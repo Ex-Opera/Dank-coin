@@ -19,7 +19,7 @@ This repository contains a Python script developed for automating coin collectio
 
 ## Usage
 
-1. Input your Discord bot token and channel ID in the script.
+1. Input your Discord token and channel ID in the script.
 2. Run the script.
 3. Input the total number of planned executions.
 4. Observe the progress and time analysis displayed in the console.
