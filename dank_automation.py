@@ -21,7 +21,7 @@ channel_id = int(input("Input Discord channel ID: "))
 # Call the function to display estimated time
 total_executions = int(input("Input the total number of planned executions: "))
 completed_executions = 0
-actions = ['fish', 'hunt', 'dig', 'beg']
+actions_list = ['fish', 'hunt', 'dig', 'beg']
 
 time_info(total_executions, completed_executions)
-automate_coin_collection(total_executions, actions)
+automate_coin_collection(total_executions, actions_list)
