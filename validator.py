@@ -12,7 +12,6 @@ def get_discord_token():
         print("Invalid discord token!")
         return get_discord_token()
 
-
 def get_channel_id():
     try:
         channel_id = int(input("Input channel id: "))
@@ -28,4 +27,3 @@ def get_total_executions():
         return int(input("Input the total number of planned executions: "))
     except Exception:
         return get_total_executions()
-      
