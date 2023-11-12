@@ -1,6 +1,6 @@
 import requests
 import time
-from dank_analysis import time_info
+from dank_analysis import display_time_info
 
 def perform_dank_action(action):
     payload = {"content": f"pls {action}"}
@@ -23,5 +23,5 @@ total_executions = int(input("Input the total number of planned executions: "))
 completed_executions = 0
 actions_list = ['fish', 'hunt', 'dig', 'beg']
 
-time_info(total_executions, completed_executions)
+display_time_info(total_executions, completed_executions)
 automate_coin_collection(total_executions, actions_list)
