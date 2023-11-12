@@ -1,7 +1,7 @@
 import requests
-import getpass
 import time
 from dank_analysis import display_time_info
+from validator import get_discord_token, get_channel_id, get_total_execution
 
 def perform_dank_action(action, i):
     payload = {"content": f"pls {action}"}
@@ -16,11 +16,8 @@ def automate_coin_collection(repeat_count, action_list):
         display_time_info(total_executions, completed_executions)
         time.sleep(35)
 
-discord_token = getpass.getpass("Input Discord token: ")
-channel_id = int(input("Input Discord channel ID: "))
-
-# Call the function to display estimated time
-total_executions = int(input("Input the total number of planned executions: "))
 actions_list = ['fish', 'hunt', 'dig', 'beg']
-
+discord_token = get_discord_token()
+channel_id = get_channel_id()
+total_executions = get_total_executions()
 automate_coin_collection(total_executions, actions_list)
