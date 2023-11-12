@@ -14,7 +14,7 @@ def automate_coin_collection(repeat_count, action_list):
         print("Set of dank actions performed: {completed_executions}")
         time.sleep(35)
 
-# Replace "Token here" with your actual Discord bot token
+# Replace "Token here" with your actual Discord token
 discord_token = "Token here"
 channel_id = int(input("Input Discord channel ID: "))
 
