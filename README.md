@@ -26,7 +26,7 @@ This repository contains a Python script developed for automating coin collectio
 
 ## Disclaimer
 
-- **Self-botting:** The use of self-bots is against Discord's Terms of Service. This script is provided for educational purposes, and its use may result in consequences.
+- **Self-botting:** The use of self-bots is against Discord's Terms of Service. This script is provided for educational purposes and historical purposes only. (It doesn't work anyways)
 
 ## Contribution
 
