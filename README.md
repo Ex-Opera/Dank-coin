@@ -21,7 +21,7 @@ This repository contains a Python script designed for automating the collection 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Ex-Opera/dank-coin.git
+   git clone https://github.com/Ex-Opera/Dank-coin.git
    cd dank-coin
    ```
 
