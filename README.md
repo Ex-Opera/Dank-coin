@@ -1,44 +1,33 @@
-# Dank Memer Coin Collection Script
+# Dank Memer Coin Collector (Archived)
 
-## Overview
+**Note: This repository is archived and the script is no longer be functional as Dank memer moved to slash commands. Self-botting is against Discord's Terms of Service.**
 
-This repository contains a Python script designed for automating the collection of coins from the Dank Memer Discord bot's economy features. Note that using self-bots violates Discord's Terms of Service, and this script is provided for educational purposes only. This script no longer works as Dank Memer has moved to slash commands.
-## Disclaimer
+## Introduction
 
-**Important:** The use of self-bots, including the automation of actions through scripts, is against Discord's Terms of Service. Using self-bots can result in account termination. The provided script is not intended for actual use, and the developer encourages compliance with Discord's policies.
+This repository contains a Python script developed for automating coin collection for the discord economy bot Dank Memer. As you are aware that using self-bots is against Discord's Terms of Service, as a result this script is provided for historical purposes only.
 
 ## Features
 
-- **Coin Collection Automation:** The script automates the execution of Dank Memer actions to collect coins from the bot's economy features.
-
-- **Time Analysis:** The accompanying `dank_analysis` module provides functions to calculate and display estimated time information for the completion of the coin collection process.
+- **Automated Coin Collection:** The script automates Dank Memer actions to collect coins from the Dank Memer economy bot.
+- **Time Analysis:** Provides estimated and actual time information for the completion of planned executions.
 
 ## Prerequisites
 
-- **Discord Bot Token:** Replace the placeholder `"Token here"` in the script with your actual Discord bot token.
+- **Discord Token:** Replace "Token here" in the script with your actual Discord bot token.
+- **Channel ID:** Input the Discord channel ID where the bot should perform actions.
+- **Python Environment:** The script is written in Python. Ensure you have Python installed on your system.
 
-## How to Use
+## Usage
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Ex-Opera/Dank-coin.git
-   cd dank-coin
-   ```
+1. Input your Discord bot token and channel ID in the script.
+2. Run the script.
+3. Input the total number of planned executions.
+4. Observe the progress and time analysis displayed in the console.
 
-2. **Replace Token:**
-   - Open `dank_automation.py` and replace `"Token here"` with your actual Discord bot token.
+## Disclaimer
 
-3. **Run the Script:**
-   ```bash
-   python dank_automation.py
-   ```
+- **Self-botting:** The use of self-bots is against Discord's Terms of Service. This script is provided for educational purposes, and its use may result in consequences.
 
-4. **Input Details:**
-   - Follow the prompts to input the Discord channel ID and the total number of planned executions.
+## Contribution
 
-5. **Review Time Information:**
-   - The script will display estimated time information for better understanding of the progress.
-
-## Important Note
-
-**Warning:** The use of self-bots to automate actions on Discord is against Discord's Terms of Service. Use of self-bots can lead to account termination. This script is provided for educational purposes only, and the developer does not endorse or support any violation of Discord's policies.
+As this repository is archived, contributions are not accepted. Feel free to fork the repository for any personal modifications.
