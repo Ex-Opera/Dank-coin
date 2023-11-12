@@ -11,7 +11,7 @@ This repository contains a Python script developed for automating coin collectio
 - **Automated Coin Collection:** The script automates Dank Memer actions to collect coins from the Dank Memer economy bot.
 - **Time Analysis:** Provides estimated and actual time information for the completion of planned executions.
 
-## Prerequisites
+## Pre-requisites
 - **Python Environment:** The script is written in Python. Ensure you have Python 3.6 or higher installed on your system.
 - **Requests Library:** This script uses the request library. Ensure you have it installed `pip install requests`
 - **Discord Token:** Replace "Token here" in the script with your actual Discord bot token.
@@ -20,9 +20,9 @@ This repository contains a Python script developed for automating coin collectio
 ## Usage
 
 1. Input your Discord token and channel ID in the script.
-2. Run the script.
+2. Run the script.`python dank_automation.py`
 3. Input the total number of planned executions.
-4. Observe the progress and time analysis displayed in the console.
+4. Observe the progress and time analysis displayed in the console or leave it running in the background.
 
 ## Disclaimer
 
