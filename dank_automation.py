@@ -12,6 +12,7 @@ def automate_coin_collection(repeat_count, action_list):
         for action in action_list:
             completed_executions = perform_dank_action(action, i)
         print("Set of dank actions performed: {completed_executions}")
+        display_time_info(total_executions, completed_executions)
         time.sleep(35)
 
 # Replace "Token here" with your actual Discord token
@@ -22,5 +23,4 @@ channel_id = int(input("Input Discord channel ID: "))
 total_executions = int(input("Input the total number of planned executions: "))
 actions_list = ['fish', 'hunt', 'dig', 'beg']
 
-display_time_info(total_executions, completed_executions)
 automate_coin_collection(total_executions, actions_list)
