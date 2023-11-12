@@ -1,7 +1,7 @@
 import requests
 import time
 from dank_analysis import display_time_info
-from validator import get_discord_token, get_channel_id, get_total_execution
+from validator import get_discord_token, get_channel_id, get_total_executions
 
 def perform_dank_action(action, i):
     payload = {"content": f"pls {action}"}
