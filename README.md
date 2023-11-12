@@ -13,7 +13,7 @@ This repository contains a Python script developed for automating coin collectio
 
 ## Pre-requisites
 - **Python Environment:** The script is written in Python. Ensure you have Python 3.6 or higher installed on your system.
-- **Requests Library:** This script uses the request library. Ensure you have it installed `pip install requests`
+- **Requests Library:** This script uses the request library. Ensure you have it installed by doing `pip install requests`
 - **Discord Token:** Replace "Token here" in the script with your actual Discord bot token.
 - **Channel ID:** Input the Discord channel ID where the bot should perform actions.
 
